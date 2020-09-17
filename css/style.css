@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+html, body {
+    box-sizing: border-box;
+    font-size: 0;
+    height: 100%;
+}
+body {
+    background: rgb(43, 43, 43);
+    font-family: 'Montserrat', sans-serif;
+}
+/* ========================================= nav ========================================= */
+.nav {
+    color: rgb(219, 209, 202);
+    height: 48px;
+}
+.nav ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: right;
+    height: 48px;
+}
+.nav li {
+   display: inline-block;
+   padding-left: 28px;
+   padding-right: 28px;
+   font-size: 16px;
+   line-height: 48px;
+}
+
+/* ========================================= front ========================================= */
+.front {
+    color: rgb(255, 245, 238);
+    font-size: 1.4rem;
+}
+.front span {
+    color: rgb(156, 45, 45);
+}
+.front img{
+    border-radius: 50% 50%;
+    margin-top: 28%;
+}
+.front div {
+    display: inline-block;
+    height: 560px;
+}
+.profile-img {
+    width: 45%;
+    text-align: center;
+}
+.profile-title {
+    vertical-align: top;
+    width: 55%;
+}
+.profile-title h1 {
+    font-size: 55px;
+    margin-top: 25%;
+    text-transform: uppercase;
+}
+.profile-title h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
