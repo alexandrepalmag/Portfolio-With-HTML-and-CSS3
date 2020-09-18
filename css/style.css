@@ -27,6 +27,7 @@ body {
    padding-right: 28px;
    font-size: 16px;
    line-height: 48px;
+   font-weight: 100;
 }
 
 /* ========================================= front ========================================= */
@@ -35,7 +36,7 @@ body {
     font-size: 1.4rem;
 }
 .front span {
-    color: rgb(156, 45, 45);
+    color: rgb(208, 105, 22);
 }
 .front img{
     border-radius: 50% 50%;
@@ -57,8 +58,47 @@ body {
     font-size: 55px;
     margin-top: 25%;
     text-transform: uppercase;
+    font-weight: 400;
 }
 .profile-title h2 {
     font-size: 18px;
+    font-weight: 200;
+}
+
+
+/* ======================================================================== */
+/* resume page  */
+/* ======================================================================== */
+.main {
+    line-height: 30px;
+    padding: 100px 80px 80px 80px;
+}
+.main h1{
+    color: rgb(255, 255, 198);
+    font-size: 25px;
+    font-weight: 500;
+}
+.main h2{
+    color: rgb(255, 255, 198);
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 38px;
+}
+.main h3{
+    color: rgb(208, 105, 22);
+    font-size: 14px;
     text-transform: uppercase;
+}
+.main p{
+    color: rgb(202, 188, 176);
+    font-size: 14px;
+    font-weight: 100;
+}
+.breadcrumb {
+    list-style: none;
+    padding-left: 0;
+    color: rgb(19, 163, 163);
+}
+.breadcrumb li {
+    display: inline-block;
 }
